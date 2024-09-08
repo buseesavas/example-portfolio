@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 64px;
+}
+header img {
+  float: right;
+  display: block;
+}
+
+.container {
+  padding-inline: 165px;
+  padding-top: 120px;
+  padding-bottom: 32px;
+}
+
+.about {
+  max-width: 874px;
+  padding-bottom: 120px;
+}
+
+.latest-projects {
+  padding-block: 80px;
+}
+
+h4 {
+  font-family: "Montserrat";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 37px;
+  text-align: left;
+  color: #212121;
+  margin-bottom: 40px;
+  margin-top: 24px;
+}
+
+h2 {
+  margin-top: 12px;
+  font-family: "Montserrat";
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 70px;
+  text-align: left;
+  color: #212121;
+}
+
+.social-media-icons {
+  margin-top: 40px;
+}
+
+.social-media-icons ul {
+  display: flex;
+  gap: 36px;
+  padding-left: 0px;
+}
+
+.social-media-icons ul li {
+  list-style: none;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.card {
+  padding: 24px;
+  border: 1px solid #c4c4c4;
+  border-radius: 12px;
+  width: 100%;
+}
+
+.card-img {
+  width: 100%;
+}
+
+.card p {
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  padding-right: 393px;
+  color: #212121;
+  margin-top: 12px;
+}
+
+.view-btn {
+  margin-top: 64px;
+}
+.card a {
+  font-family: "Montserrat";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  text-decoration: none;
+  color: #212121;
+}
+
+.view-btn img {
+  vertical-align: middle;
+}
+
+.send-message-section {
+  display: flex;
+  flex-direction: row;
+  gap: 96px;
+  padding-block: 120px;
+}
+
+.text {
+  max-width: 569px;
+}
+
+h6 {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  text-align: left;
+  color: #212121;
+  margin-bottom: 16px;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+}
+
+h3 span {
+  color: #0d6efd;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+input {
+  padding-block: 12px;
+  padding-left: 16px;
+  border: none;
+  border-bottom: 1px solid #c4c4c4;
+}
+
+input::placeholder {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  color: #807e7e;
+}
+
+#message {
+  height: 81px;
+  position: relative;
+}
+
+#message::placeholder {
+  position: absolute;
+  top: 0px;
+}
+
+.send-message-btn {
+  border: 1px solid #212121;
+  padding-block: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.send-message-btn a {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: #212121;
+  text-decoration: none;
+}
+
+h5 {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  margin-top: 32px;
+  color: #212121;
+}
